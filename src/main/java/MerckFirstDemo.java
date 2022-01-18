@@ -23,7 +23,7 @@ public class MerckFirstDemo extends HttpServlet {
 		ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
 		context.setContextPath("/");
 		server.setHandler(context);
-		context.addServlet(new ServletHolder(new MercFirstDemo()), "/*");
+		context.addServlet(new ServletHolder(new MerckFirstDemo()), "/*");
 		server.start();
 		server.join();
 	}
