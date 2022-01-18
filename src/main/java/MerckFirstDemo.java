@@ -9,13 +9,13 @@ import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 
-public class MercFirstDemo extends HttpServlet {
+public class MerckFirstDemo extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		resp.getWriter().print("MercFirstDemo for Java!\n");
+		resp.getWriter().print("MerckFirstDemo for Java!\n");
 	}
 
 	public static void main(String[] args) throws Exception {
